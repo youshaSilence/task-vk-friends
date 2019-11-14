@@ -1,27 +1,14 @@
 # VkFriendsApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
+Это тестовое задание для вакансии "Начинающий фулл-стек разработчик".
 
-## Development server
+Приложение размещено на Firebase и доступно по ссылке https://task-vk-friends.firebaseapp.com/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Описание задания
+При открытии должно показать кнопку «авторизоваться», по нажатию делает oauth авторизацию ВКонтакте и показывает имя авторизованного пользователя и 5 любых друзей пользователя. При последующих запусках/заходах на страницу сразу показывает всю информацию т.к. уже понимает, что авторизовано и авторизация запоминается. Бекенд,  если потребуется, на любой технологии на ваш выбор.
 
-## Code scaffolding
+Задание выполнено с использованием фреймворка Angular. Бекенд отсутсвует. Все требования к функционалу выполнены.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Запуск приложения локально
+Команда `ng serve -o` запустит приложение и оно будет доступно по адресу http://localhost:80/.

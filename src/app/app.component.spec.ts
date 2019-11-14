@@ -23,13 +23,13 @@ describe('AppComponent', () => {
   it(`should have as title 'vk-friends-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('vk-friends-app');
+    expect(app.title).toEqual('vk-friend-list-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('vk-friends-app app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('vk-friend-list-app app is running!');
   });
 });
