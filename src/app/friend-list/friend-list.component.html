@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <div class="row min-vh-100">
+  <div class="col-sm-6 mx-auto my-5">
+    <h1 class="my-5">Добро пожаловать, {{userName}}</h1>
+    <h2>Список друзей</h2>
+    <ul class="my-3">
+      <li *ngFor="let friend of friends">
+        {{friend.first_name}} {{friend.last_name}}
+      </li>
+    </ul>
+  </div>
+  </div>
+</div>
